@@ -1,0 +1,89 @@
+﻿@model Test
+@{
+    ViewData["Title"] = "TesteBasla";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+    <div class="container" style="background-color:antiquewhite;width:1000px;height:1000px">
+        <div style="text-align:center">
+            <h3 style="color:grey"></h3>
+        </div>
+        <br />
+        <form method="post">
+            <div class="form-group">
+               
+
+                <label class="col-form-label" asp-for="İlkSoru">Lütfen Yaşınızı giriniz.</label>
+                <input class="form-control" asp-for="İlkSoru" required>
+
+                <label class="col-form-label" asp-for="İkinciSoru">Son günlerde aile üyelerinizden birisi yurtdışından geldi mi?</label>
+                <select class="form-control" asp-for="İkinciSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+                    <option value="1">Evet</option>
+                    <option value="0">Hayır</option>
+                </select>
+
+                <label class="col-form-label" asp-for="UcuncuSoru">İştahsızlık ve kilo kaybı yaşıyor musunuz?</label>
+                <select class="form-control" asp-for="UcuncuSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+                    <option value="1">Evet,yaşıyorum</option>
+                    <option value="0">Hayır,yaşamıyorum</option>
+                </select>
+                <label class="col-form-label" asp-for="DorduncuSoru">Ateşiniz 36 derecenden yüksek mi?</label>
+                <select class="form-control" asp-for="DorduncuSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Yüksek</option>
+                    <option value="0">Yüksek Değil</option>
+                </select>
+                <label class="col-form-label" asp-for="BesinciSoru">Halsizlik ve durgunluk hissi yaşadığınız oluyor mu?</label>
+                <select class="form-control" asp-for="BesinciSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Oluyor</option>
+                    <option value="0">Olmuyor</option>
+                </select>
+                <label class="col-form-label" asp-for="AltinciSoru">Karın Bölgesinde Şişme Yaşıyor musunuz?</label>
+                <select class="form-control" asp-for="AltinciSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Evet,yaşıyorum</option>
+                    <option value="0">Hayır,yaşamıyorum</option>
+                </select>
+                <label class="col-form-label" asp-for="YedinciSoru">Gözünüzde görme sorunları,göz sulanması ya da gözde renk değişimi var mı?</label>
+                <select class="form-control" asp-for="YedinciSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Var</option>
+                    <option value="0">Yok</option>
+                </select>
+                <label class="col-form-label" asp-for="SekizinciSoru">Nefes almada zorluk ya da nezle durumu yaşıyor musunuz</label>
+                <select class="form-control" asp-for="SekizinciSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Evet Yaşıyorum</option>
+                    <option value="0">Hayır,Yaşamıyorum</option>
+                </select>
+                <label class="col-form-label" asp-for="DokuzuncuSoru">Yürürken Denge Kaybı Yaşıyor musunuz?</label>
+                <select class="form-control" asp-for="DokuzuncuSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Evet,Yaşıyorum</option>
+                    <option value="0">Hayır,Yaşamıyorum</option>
+                </select>
+                <label class="col-form-label" asp-for="OnuncuSoru">Genel olarak psikolojinizde ani değişmeler oluyor mu(mutsuzluk)?</label>
+                <select class="form-control" asp-for="OnuncuSoru">
+                    <option value="" selected disabled hidden>Seçin</option>
+
+                    <option value="1">Evet,Oluyor</option>
+                    <option value="0">Hayır,Olmuyor</option>
+                </select>
+            </div>
+            <div style="text-align:center">
+                <button type="submit" class="btn btn-primary">Test sonucunu öğren</button>
+            </div>
+        </form>
+    </div>
+
+
+
