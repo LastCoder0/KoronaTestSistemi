@@ -1,13 +1,23 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "VirusSonuc";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="container" style="width:800px;height:700px;">
     <div style="text-align:center">
-        
-        <h3>Sayın @ViewBag.message Testiniz Negatiftir Evinizde Kendinizi İzole Edin.</h3>
+        <br />
+        <div class="alert alert-success" role="alert">
+          
+            <h4 class="alert-heading">Sayın @ViewBag.ad Sapa Sağlamsınız</h4>
+            
+            <p>
+                Testiniz negatiftir,şuanlık endişelenecek bir durum yok,
+                Dışarı çıktığınızda maske kullanmayı unutmayın,bu hem sizin hem de ailenizin sağlığı içindir.
+
+            </p>
+            <hr>
+            <p class="mb-0">Gerekmedikçe evinizde kalın,kendinizi izole edin.</p>
+        </div>
         
 
     </div>

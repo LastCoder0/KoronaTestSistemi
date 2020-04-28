@@ -10,7 +10,6 @@ C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Koro
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\KoronaVirus.TagHelpers.input.cache
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\KoronaVirus.TagHelpers.output.cache
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\KoronaVirus.RazorCoreGenerate.cache
-C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -113,3 +112,4 @@ C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razo
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Page\Viruspage3.cshtml.g.cs
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Page\VirusNegatif.cshtml.g.cs
 C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Page\VirusPozitif.cshtml.g.cs
+C:\Users\Cihat\source\repos\CoronaVirus\KoronaVirus\obj\Debug\netcoreapp3.1\Razor\Views\Page\Error.cshtml.g.cs

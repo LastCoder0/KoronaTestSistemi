@@ -27,13 +27,15 @@ namespace KoronaVirus.Controllers
         {
             return View();
         }
-        public IActionResult VirusPozitif(Test test)
+        public IActionResult VirusPozitif()
         {
+           ViewBag.ad= TempData["Ad"];
 
             return View();
         }
-        public IActionResult VirusNegatif(Test test)
+        public IActionResult VirusNegatif()
         {
+            ViewBag.ad = TempData["Ad"];
 
             return View();
         }
@@ -46,8 +48,30 @@ namespace KoronaVirus.Controllers
          [HttpPost]
         public IActionResult TesteBasla(Test test)
         {
+            TempData["Ad"] = test.Ad; ;
 
-            return RedirectToAction("VirusNegatif","Page");
+          
+
+            if (test.UcuncuSoru==1) //Ateş kontrolü
+            {
+                if(test.DorduncuSoru==1)
+                {
+                    if(test.BesinciSoru==1)
+                    {
+                        if (test.AltinciSoru == 1)
+                        {
+                            return RedirectToAction("VirusPozitif", "Page");
+                        }
+                    }
+
+                }
+
+            }
+          
+            
+                return RedirectToAction("VirusNegatif", "Page");
+            
+         
         }
     }
     }
